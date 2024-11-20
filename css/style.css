@@ -72,6 +72,82 @@ margin-bottom:35px ;
     background-size: cover;
     margin: 0;
     height: 760px;
+
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 14px;
+}
+
+.hero-pister-egg{
+color: #FFD593;
+font-family: Kanit;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
 }
 
 
+/* about */
+
+.about-text{
+    color: #FFEDD1;
+text-align: center;
+font-family: Kanit;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 661px;
+
+margin-bottom: 26px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.about-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 26px;
+}
+
+
+.about-list{
+    display: flex;
+    gap: 50px;
+}
+
+
+.about-list-item{
+    width: 300px;
+    height: 400px;
+    border-radius: 14px;
+    border: 6px solid #FFD593;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.about-item-text{
+    color: #FFD593;
+text-align: center;
+font-family: Kanit;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
