@@ -48,6 +48,8 @@ line-height: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 29px;
+    
 }
 
 
@@ -55,6 +57,18 @@ line-height: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+
+.contacts-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+    margin-right:20px ;
+    gap: 20px;
+
 }
 
 
